@@ -1,0 +1,119 @@
+header{
+    padding: 20px 35px;
+    font-family: 'Manrope';
+}
+
+.navbar{
+    background: white;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navbar-left img{
+    width: 192px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.call{
+    font-weight: 400;
+    font-size: 22px;
+    display: flex;
+    align-items: flex-end;
+    gap: 5px;
+    color: #141414;
+}
+
+.call img{
+    width: 24px;
+    height: 25px;
+}
+
+.call a{
+    list-style: none;
+    color: #141414;
+    transition: .5s;
+}
+
+.call a:hover{
+    color: #5C8692;
+    cursor: pointer;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-right ul{
+    display: flex;
+    align-items: center;
+    color: #141414;
+    font-weight: 400;
+    font-size: 22px;
+    gap: 35px;
+}
+
+.navbar-right ul li{
+    transition: .5s;
+}
+
+.navbar-right ul li:hover{
+    color: #5C8692;
+    cursor: pointer;
+}
+
+.navbar-right .home{
+    color: #5C8692;
+    transition: .5s;
+}
+
+.navbar-right div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-left: 13px;
+    overflow: hidden;
+}
+
+.navbar-right div img{
+    transition: .5s;
+}
+
+.navbar-right div img:hover{
+    cursor: pointer;
+    background-color: #5C8692;
+    padding: 16px;
+}
+
+.navbar-right button{
+    width: 200px;
+    height: 60px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    background: 
+    #5C8692;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    transition: .5s;
+}
+
+.navbar-right button:hover{
+    background: #ccdce0;
+    cursor: pointer;
+    border: 2px solid #5C8692;
+    color: white;
+}
